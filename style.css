@@ -32,6 +32,11 @@ body {
 
 
 #profile-picture:hover {
+  position: absolute;
+  left: 41.7%;
+  top: 22.1%;
+  opacity: 0;
+  object-fit: cover;
   opacity: 1;
   transition: 2s;
   /* background-image: url('images/Profile-picture.jpeg'); */
